@@ -52,7 +52,6 @@ class ContactController extends Controller
 
         return redirect()->route('contacts.index')->with('success', 'Contact ajouté avec succès');
     }
-
     
     public function show(Contact $contact)
     {
