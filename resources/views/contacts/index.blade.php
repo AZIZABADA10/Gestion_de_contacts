@@ -3,9 +3,10 @@
 @section('content')
 <div class="container py-4">
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2 class="fw-bold text-primary">
-            <i class="bi bi-people-fill me-2"></i>Liste des Contacts
-        </h2>
+        <h2 class="fw-bold text-success">
+    <i class="bi bi-people-fill me-2"></i>Liste des Contacts
+</h2>
+
 
         <a href="{{ route('contacts.create') }}" class="btn btn-success shadow-sm"> <i class="bi bi-person-plus-fill me-2"></i>Ajouter un contact</a>
     </div>
